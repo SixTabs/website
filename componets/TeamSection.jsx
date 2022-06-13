@@ -86,10 +86,54 @@ class Team extends Component {
               <h5>Patrick Ishimwe</h5>
             </div>
           </div>
-          <div className="row goals-section">
-            <div className="col-md-4 col-sm-4 col-xs-12"></div>
-            <div className="col-md-4 col-sm-4 col-xs-12"></div>
-            <div className="col-md-4 col-sm-4 col-xs-12"></div>
+          <div
+            className="row goals-section"
+            style={{ padding: "10px", color: "white", marginTop: "25px" }}
+          >
+            <div className="col-md-4 col-sm-4 col-xs-12">
+              <h3>Vision</h3>
+              <div className="vision">
+                <p>
+                  Our vision is to become a leading company in Africa that
+                  creates secure and accessible IT software systems and provides
+                  network security and cybersecurity support.
+                </p>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-4 col-xs-12">
+              <h3>Mission</h3>
+              <div className="mission">
+                <ul>
+                  <li>
+                    Helping public and private institutions acquire quality
+                    software systems.
+                  </li>
+                  <li>
+                    Helping public and private institutions by supporting them
+                    in securing their networks.
+                  </li>
+                  <li>
+                    Provide consultancy in cybersecurity and Software
+                    engineering.
+                  </li>
+                  <li>
+                    Help companies/institutions understand why software
+                    accessibility matters.
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-md-4 col-sm-4 col-xs-12">
+              <h3>Values</h3>
+              <div className="values">
+                <ul>
+                  <li>Professionalism </li>
+                  <li>Integrity</li>
+                  <li>Quality</li>
+                  <li>Accessibility</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>

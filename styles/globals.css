@@ -134,3 +134,11 @@ footer {
 .team {
   padding: 12px 6px;
 }
+.goals-section h3 {
+  text-align: center;
+}
+.mission,
+.vision,
+.values {
+  padding-left: 10px;
+}
