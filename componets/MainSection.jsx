@@ -1,4 +1,5 @@
 import { React, Component } from "react";
+import Image from "next/image";
 
 class Main extends Component {
   constructor(props) {
@@ -7,10 +8,14 @@ class Main extends Component {
   state = {};
   render() {
     return (
-      <section>
+      <section id="hero" className="d-flex align-items-center">
         <div className="container">
           <div className="row">
-            <div className="col-md-6">
+            <div
+              className="col-lg-6 d-flex flex-column justify-content-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
               <div className="row" style={{ padding: "20px" }}>
                 <div className="col-md-12" style={{ textAlign: "left" }}>
                   <h2>Accessible, usable and secure systems</h2>
@@ -26,8 +31,17 @@ class Main extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-6">
-              <h1>This is the right part of Main</h1>
+            <div
+              className="col-lg-6 order-1 order-lg-2 hero-img"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <Image
+                src="/assets/img/hero-img.png"
+                alt="Landscape picture"
+                width={500}
+                height={400}
+              />
             </div>
           </div>
         </div>

@@ -5,12 +5,16 @@ class Header extends Component {
   state = {};
   render() {
     return (
-      <header className="nav-bar-style">
+      <header
+        className="nav-bar-style"
+        style={{ backgroundColor: "#37517e", color: "white" }}
+      >
         <Navbar collapseOnSelect expand="lg" className="nav-bar-style">
           <Container className="nav-bar-style">
             <Navbar.Brand
               style={{
                 paddingLeft: "25px",
+                color: "white",
               }}
               href="#home"
             >
@@ -22,7 +26,7 @@ class Header extends Component {
               <Nav className="navbar-content-style">
                 <Nav.Link
                   style={{
-                    color: "#2A3746",
+                    color: "white",
                     paddingLeft: "25px",
                     paddingRight: "25px",
                   }}
@@ -32,7 +36,7 @@ class Header extends Component {
                 </Nav.Link>
                 <Nav.Link
                   style={{
-                    color: "#2A3746",
+                    color: "white",
                     paddingLeft: "25px",
                     paddingRight: "25px",
                   }}
@@ -42,7 +46,7 @@ class Header extends Component {
                 </Nav.Link>
                 <Nav.Link
                   style={{
-                    color: "#2A3746",
+                    color: "white",
                     paddingLeft: "25px",
                     paddingRight: "25px",
                   }}
