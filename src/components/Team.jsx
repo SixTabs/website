@@ -4,27 +4,27 @@ import { CheckIcon } from '@heroicons/react/solid';
 
 const Team = () => {
   return (
-    <div className="w-full bg-sky-700">
+    <div className="w-full bg-cyan-600">
       <div className='w-full text-white my-24'>
-        <div className='w-full h-[800px] bg-slate-900 absolute mix-blend-overlay'></div>
-        <div className='max-w-[1240px] mx-auto py-8'>
+        <div className='max-w-[1240px] mx-auto py-4'>
           <div className='text-center py-4 text-slate-300'>
             <h3 className='text-5xl font-bold text-white'>Team</h3>
-            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam</p>
-
+            <p className="text-white mt-4">Six tabs is a startup created by a group of 6 Engineers whose
+          value is Professionalism, Integrity, Quality work, and
+          Accessibility for all.</p>
+            <h2 className="text-2xl my-4 text-white">Six Founders</h2>
           </div>
           <div className='grid md:grid-cols-3'>
 
-            <div className='bg-white text-slate-900 m-4 rounded-xl p-8 shadow-2xl relative'>
+            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl py-8 relative'>
               <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>CEO</span>
-              <div className="flex justify-center"><img className="w-80" src={profile1} alt="/" /></div>
+              <div className="flex justify-center"><img className="w-60" src={profile1} alt="/" /></div>
               <div><p className="text-xl text-white mx-4">Yves Byiringiro</p></div>
               <div><p className="">Our CEO has great experience in Software engineering</p></div>
-              <p className='text-2x py-8 text-slate-500'>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              <p className='text-2x py-4 text-slate-500'>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam</p>
-              <div className='text-2xl'>
-                <button className='w-full py-4 my-4 '>Get Started</button>
+              <div className='text-xl'>
+                <button className='w-1/2 py-4 my-4 '>View More</button>
               </div>
             </div>
 
