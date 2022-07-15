@@ -15,7 +15,7 @@ const Navbar = () => {
           <ul className='hidden md:flex'>
             <li><Link  to="home"  smooth={true} offset={0} duration={500} >Home</Link></li>
             <li><Link  to="about"  smooth={true} offset={0} duration={500} >About Us</Link></li>
-            <li><Link  to="education"  smooth={true} offset={0} duration={500} >Services</Link></li>
+            <li><Link  to="services"  smooth={true} offset={0} duration={500} >Services</Link></li>
             <li><Link to="contact" smooth={true} offset={0} duration={500}>Contact</Link></li>
             <li>Blog</li>
           </ul>

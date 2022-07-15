@@ -5,7 +5,7 @@ const Hero = ()=>{
     return(
         <div className='w-full flex justify-between'>
             <div className='m-20 p-8 w-1/2'>
-            <h1 className='text-4xl font-semibold'> Accessible, usable and secure systems</h1> 
+            <h1 className='text-5xl text-sky-700 font-semibold'> Accessible, usable and secure systems</h1> 
             
             <p className='text-2xl mt-4'>
             Did you know that around 15% of the world’s population or if

@@ -10,7 +10,7 @@ import {
 
 const Team = () => {
   return (
-    <div className="w-full bg-cyan-600">
+    <div className="w-full bg-sky-700">
       <div className='w-full text-white my-24'>
         <div className='max-w-[1240px] mx-auto py-4'>
           <div className='text-center py-4 text-slate-300'>
@@ -41,9 +41,9 @@ const Team = () => {
             {/* -------------------------------------------------------------Marius-------------------------------------------- */}
 
             <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl py-8 relative'>
-              <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>CEO</span>
+              <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>Marketing and communication</span>
               <div className="flex justify-center"><img className="w-60" src={profile1} alt="/" /></div>
-              <div><p className="text-xl font-semibold text-black mx-4">Yves Byiringiro</p></div>
+              <div><p className="text-xl font-semibold text-black mx-4">Yves Habimana</p></div>
               <div><p className="">Our CEO has great experience in Software engineering</p></div>
               <p className='text-2x py-4 text-slate-500'>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam</p>
@@ -60,7 +60,7 @@ const Team = () => {
 
 
             <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl py-8 relative'>
-              <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>CEO</span>
+              <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>Innovation Manager</span>
               <div className="flex justify-center"><img className="w-60" src={profile1} alt="/" /></div>
               <div><p className="text-xl font-semibold text-black mx-4">Patrick Iradukunda</p></div>
               <div><p className="">Our CEO has great experience in Software engineering</p></div>
@@ -79,9 +79,9 @@ const Team = () => {
 
 
             <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl py-8 relative'>
-              <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>CEO</span>
+              <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>CTO</span>
               <div className="flex justify-center"><img className="w-60" src={profile1} alt="/" /></div>
-              <div><p className="text-xl font-semibold text-black mx-4">Yves Habimana</p></div>
+              <div><p className="text-xl font-semibold text-black mx-4">Marius Robert Rwandarushya</p></div>
               <div><p className="">Our CEO has great experience in Software engineering</p></div>
               <p className='text-2x py-4 text-slate-500'>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam</p>
@@ -97,7 +97,7 @@ const Team = () => {
             {/* ---------------------------------------------------Ishimwe--------------------------------------------------- */}
 
             <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl py-8 relative'>
-              <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>CEO</span>
+              <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>Chief security Officer</span>
               <div className="flex justify-center"><img className="w-60" src={profile1} alt="/" /></div>
               <div><p className="text-xl font-semibold text-black mx-4">Theoneste Byagutangaza</p></div>
               <div><p className="">Our CEO has great experience in Software engineering</p></div>
@@ -114,7 +114,7 @@ const Team = () => {
 
             {/* ---------------------------------------------Theo------------------------------------------------------------- */}
             <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl py-8 relative'>
-              <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>CEO</span>
+              <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>Chief finance</span>
               <div className="flex justify-center"><img className="w-60" src={profile1} alt="/" /></div>
               <div><p className="text-xl font-semibold text-black mx-4">Patrick Ishimwe</p></div>
               <div><p className="">Our CEO has great experience in Software engineering</p></div>
