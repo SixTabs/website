@@ -15,7 +15,7 @@ const Navbar = () => {
           <ul className='hidden md:flex'>
             <li><Link  to="home"  smooth={true} offset={0} duration={500} >Home</Link></li>
             <li><Link  to="about"  smooth={true} offset={0} duration={500} >About Us</Link></li>
-            <li><Link  to="services"  smooth={true} offset={0} duration={500} >Services</Link></li>
+            <li><Link  to="service"  smooth={true} offset={0} duration={500} >Our Services</Link></li>
             <li><Link to="contact" smooth={true} offset={0} duration={500}>Contact</Link></li>
             <li>Blog</li>
           </ul>
@@ -31,9 +31,10 @@ const Navbar = () => {
       </div>
 
       <ul className={!nav? 'hidden':'absolute bg-zinc-200 w-full px-8'}>
-        <li className='border-b-2 border-zinc-300 w-full'>Home</li>
-        <li className='border-b-2 border-zinc-300 w-full'>About</li>
-        <li className='border-b-2 border-zinc-300 w-full'>Contact</li>
+        <li className='border-b-2 border-zinc-300 w-full'><Link  to="home"  smooth={true} offset={0} duration={500} >Home</Link></li>
+        <li className='border-b-2 border-zinc-300 w-full'><Link  to="about"  smooth={true} offset={0} duration={500} >About Us</Link></li>
+        <li className='border-b-2 border-zinc-300 w-full'><Link  to="service"  smooth={true} offset={0} duration={500} >Our Services</Link></li>
+        <li className='border-b-2 border-zinc-300 w-full'><Link to="contact" smooth={true} offset={0} duration={500}>Contact</Link></li>
         <li className='border-b-2 border-zinc-300 w-full'>Blog</li>
 
         <div className='flex flex-col my-4'>

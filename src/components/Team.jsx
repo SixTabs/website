@@ -10,19 +10,20 @@ import {
 
 const Team = () => {
   return (
-    <div className="w-full bg-sky-700">
-      <div className='w-full text-white my-24'>
+    <div name='team' className="w-full text-" >
+      <div className='w-full text-sky-900 my-24'>
         <div className='max-w-[1240px] mx-auto py-4'>
-          <div className='text-center py-4 text-slate-300'>
-            <h3 className='text-5xl font-bold text-white'>Team</h3>
-            <p className="text-white mt-4">Six tabs is a startup created by a group of 6 Engineers whose
+          <div className='text-center py-4 text-sky-900'>
+            <h3 className='text-5xl font-bold text-sky-900'>Team</h3>
+            <p className="text-sky-900 text-2xl mt-4">Six tabs is a startup created by a group of 6 Engineers whose
               value is Professionalism, Integrity, Quality work, and
               Accessibility for all.</p>
-            <h2 className="text-2xl my-4 text-white">Six Founders</h2>
+            <h2 className="text-3xl my-4 text-sky-900">Six Founders</h2>
           </div>
           <div className='grid md:grid-cols-3'>
 
-            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl py-8 relative'>
+        {/* -------------------------------------------------------------yves-------------------------------------------- */}
+            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl border border-gray-400 shadow-gray-400 shadow-lg py-8 relative'>
               <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>CEO</span>
               <div className="flex justify-center"><img className="w-60" src={profile1} alt="/" /></div>
               <div><p className="text-xl font-semibold text-black mx-4">Yves Byiringiro</p></div>
@@ -40,7 +41,7 @@ const Team = () => {
 
             {/* -------------------------------------------------------------Marius-------------------------------------------- */}
 
-            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl py-8 relative'>
+            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl border border-gray-400 shadow-gray-400 shadow-lg py-8 relative'>
               <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>Marketing and communication</span>
               <div className="flex justify-center"><img className="w-60" src={profile1} alt="/" /></div>
               <div><p className="text-xl font-semibold text-black mx-4">Yves Habimana</p></div>
@@ -59,7 +60,7 @@ const Team = () => {
             {/* --------------------------------------------------------Patrick ---------------------------------------------- */}
 
 
-            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl py-8 relative'>
+            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl border border-gray-400 shadow-gray-400 shadow-lg py-8 relative'>
               <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>Innovation Manager</span>
               <div className="flex justify-center"><img className="w-60" src={profile1} alt="/" /></div>
               <div><p className="text-xl font-semibold text-black mx-4">Patrick Iradukunda</p></div>
@@ -78,7 +79,7 @@ const Team = () => {
             {/* ---------------------------------------------------Yves-------------------------------------------------------- */}
 
 
-            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl py-8 relative'>
+            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl border border-gray-400 shadow-gray-400 shadow-lg py-8 relative'>
               <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>CTO</span>
               <div className="flex justify-center"><img className="w-60" src={profile1} alt="/" /></div>
               <div><p className="text-xl font-semibold text-black mx-4">Marius Robert Rwandarushya</p></div>
@@ -96,7 +97,7 @@ const Team = () => {
 
             {/* ---------------------------------------------------Ishimwe--------------------------------------------------- */}
 
-            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl py-8 relative'>
+            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl border border-gray-400 shadow-gray-400 shadow-lg py-8 relative'>
               <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>Chief security Officer</span>
               <div className="flex justify-center"><img className="w-60" src={profile1} alt="/" /></div>
               <div><p className="text-xl font-semibold text-black mx-4">Theoneste Byagutangaza</p></div>
@@ -113,7 +114,7 @@ const Team = () => {
             </div>
 
             {/* ---------------------------------------------Theo------------------------------------------------------------- */}
-            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl py-8 relative'>
+            <div className='bg-white md:h-[32rem] text-slate-900 m-4 rounded-xl border border-gray-400 shadow-gray-400 shadow-lg py-8 relative'>
               <span className='uppercase px-3 py-1 bg-indigo-200 rounded-2xl text-sm'>Chief finance</span>
               <div className="flex justify-center"><img className="w-60" src={profile1} alt="/" /></div>
               <div><p className="text-xl font-semibold text-black mx-4">Patrick Ishimwe</p></div>
